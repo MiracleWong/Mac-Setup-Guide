@@ -13,29 +13,29 @@ PS：在Mac App Store 上安装
 
 2. Install Xcode命令行工具
 
-```
-xcode-select --install
-```
+    ```
+    xcode-select --install
+    ```
 
 3. Install Homebrew
 
-```
-/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
-```
+    ```
+    /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+    ```
 
 4. Install Homebrew Cask
 
-```
-brew install brew-cask-completion
-```
+    ```
+    brew install brew-cask-completion
+    ```
 
-出现错误：
+    出现错误：
 
-```
-Error: Cask 'brew-cask' is unavailable: '/usr/local/Homebrew/Library/Taps/caskroom/homebrew-cask/Casks/brew-cask.rb' does not exist. 
-```
+    ```
+    Error: Cask 'brew-cask' is unavailable: '/usr/local/Homebrew/Library/Taps/caskroom/homebrew-cask/Casks/brew-cask.rb' does not exist. 
+    ```
 
-再安装：
-```
-brew install caskroom/cask/brew-cask
-```
+    再安装：
+    ```
+    brew install caskroom/cask/brew-cask
+    ```
