@@ -54,6 +54,7 @@ How：
 6. Python
 
     ```
+    brew install python3
     ```
 
 7. 日常使用工具
@@ -85,7 +86,7 @@ How：
     - Sublime Text 3
 
         ```
-        brew cask install visual-studio-code
+        brew cask install sublime-text
         ```
 
     - Visual Studio Code
@@ -113,7 +114,10 @@ How：
     ```
 
 12 已安装软件和工具说明
+
+    ```
     TODO
+    ```
 
 
 
