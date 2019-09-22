@@ -56,7 +56,7 @@ How：
     ```
     ```
 
-7. 日程使用工具
+7. 日常使用工具
 
     ```
     brew cask install  google-chrome firefox（国外版）flux iina neteasemusic one-switch mweb thunder qq wechat virtualbox
@@ -84,21 +84,21 @@ How：
 
     - Sublime Text 3
 
-    ```
-    brew cask install visual-studio-code
-    ```
+        ```
+        brew cask install visual-studio-code
+        ```
 
     - Visual Studio Code
     
-    ```
-    brew cask install visual-studio-code
-    ```
+        ```
+        brew cask install visual-studio-code
+        ```
 
     - Atom
     
-    ```
-    brew cask install atom
-    ```
+        ```
+        brew cask install atom
+        ```
 
 12. NVM
 
@@ -117,5 +117,5 @@ How：
 
 
 
-[1]: https://github.com/sindresorhus/quick-look-plugins0
+[1]: https://github.com/sindresorhus/quick-look-plugins
 
