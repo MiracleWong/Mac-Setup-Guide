@@ -60,7 +60,7 @@ How：
 7. 日常使用工具
 
     ```
-    brew cask install  google-chrome firefox（国外版）flux iina neteasemusic one-switch mweb thunder qq wechat virtualbox
+    brew cask install  google-chrome firefox（国外版）flux iina neteasemusic one-switch mweb thunder qq wechat virtualbox licecap usage 
     ```
 
 8. 编程效率工具
@@ -78,7 +78,7 @@ How：
 10. 命令行工具
 
     ```
-    brew install git wget curl mycil httpie lftp lrzsz jq xz coreutils autojump shellcheck htop axel cloc thefuck wtf fzf exa bat
+    brew install git wget curl mycil httpie lftp lrzsz jq xz coreutils autojump shellcheck htop axel cloc thefuck wtf fzf exa bat tmux
     ```
 
 11. 编辑器
