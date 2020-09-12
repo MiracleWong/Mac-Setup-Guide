@@ -4,7 +4,7 @@ Why：本项目的灵感来自于 [Phodal Huang](https://github.com/phodal)  的
 
 What：这是一个几乎靠命令行安装 macOS 软件的仓库。
 对于需要在网站下载dmg、pkg等软件、或者在Mac App Store下载的软件，请参照我的另一个仓库：
-
+[Mac-Software-In-Use](https://github.com/MiracleWong/Mac-Software-In-Use)
 
 How：
 
@@ -83,22 +83,23 @@ How：
 
 11. 编辑器
 
-    - Sublime Text 3
-
-        ```
-        brew cask install sublime-text
-        ```
-
     - Visual Studio Code
     
         ```
         brew cask install visual-studio-code
         ```
 
+
+    ### 已不再使用Atom 和 Sublime Text，这里仅仅给出安装方式，便于读者参考、
     - Atom
     
         ```
         brew cask install atom
+        ```
+    - Sublime Text 3
+
+        ```
+        brew cask install sublime-text
         ```
 
 12. NVM
@@ -113,7 +114,8 @@ How：
     brew install zsh zsh-completions
     ```
 
-12 已安装软件和工具说明
+14. 已安装软件和工具说明
+
 
     ```
     TODO
