@@ -23,33 +23,11 @@ How：
     /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
     ```
 
-4. Install Homebrew Cask
-
-    ```
-    brew install caskroom/cask/brew-cask
-    ```
-
-    出现错误：
-
-    ```
-    Error: Cask 'brew-cask' is unavailable: '/usr/local/Homebrew/Library/Taps/caskroom/homebrew-cask/Casks/brew-cask.rb' does not exist. 
-    ```
-
-    再安装：
-    ```
-    brew install brew-cask-completion
-    ```
-
-    测试：
-    ```
-    brew search qq
-    ```
-
 5. JDK
 
     ```
     brew tap caskroom/versions
-    brew cask install java8
+    brew install --cask java8
     ```
 6. Python
 
@@ -60,19 +38,19 @@ How：
 7. 日常使用工具
 
     ```
-    brew cask install  google-chrome firefox（国外版）flux iina neteasemusic one-switch mweb thunder qq wechat virtualbox licecap usage 
+    brew install --cask  google-chrome firefox（国外版）flux iina neteasemusic one-switch mweb thunder qq wechat virtualbox licecap usage 
     ```
 
 8. 编程效率工具
 
     ```
-    brew cask install iterm2 sourcetree alfred cheatsheet postman picgo 
+    brew install --cask iterm2 sourcetree alfred cheatsheet postman picgo 
     ```
 
 9. 扩展预览程序<sup>[1]</sup>
 
     ```
-    brew cask install qlcolorcode qlstephen qlmarkdown quicklook-json qlimagesize suspicious-package quicklookase qlvideo webpquicklook
+    brew install --cask qlcolorcode qlstephen qlmarkdown quicklook-json qlimagesize suspicious-package quicklookase qlvideo webpquicklook
     ```
 
 10. 命令行工具
@@ -86,7 +64,7 @@ How：
     - Visual Studio Code
     
         ```
-        brew cask install visual-studio-code
+        brew install --cask visual-studio-code
         ```
 
 
@@ -94,12 +72,12 @@ How：
     - Atom
     
         ```
-        brew cask install atom
+        brew install --cask atom
         ```
     - Sublime Text 3
 
         ```
-        brew cask install sublime-text
+        brew install --cask sublime-text
         ```
 
 12. NVM
