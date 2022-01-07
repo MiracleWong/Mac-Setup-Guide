@@ -12,7 +12,7 @@
 
 对于M1 Mac Mini等搭载苹果最新 M1 芯片的机器，需要软件额外的支持，具体查询网站如下：
 
-- [Does it ARM]()
+- [Does it ARM](https://doesitarm.com/)
 - [is apple silicon ready](https://isapplesiliconready.com/zh)
 
 从软件收集数量来看，Does it ARM 更胜一筹；从提交情报方式来看，Does it ARM 采用开源平台、情报公示，而项目 is apple silicon ready 通过 Google 表单提交给主理人，Does it ARM 更胜一筹；从美观度和易用性来看，项目 is apple silicon ready 为每个软件设置了图标、做了分页处理、每行高度适中，完胜 Does it ARM。<sup>[1]</sup>
@@ -50,20 +50,23 @@
 6. Python
 
     ```
-    brew install python@3.9
+    brew install python@3.10
     ```
 
 7. 日常使用工具
 
     ```
-    brew install --cask appcleaner google-chrome microsoft-edge flux iina neteasemusic one-switch mweb-pro qq wechat virtualbox licecap tencent-lemon maczip hiddenbar obsidian itsycal hazeover eudic 
+    brew install --cask appcleaner google-chrome microsoft-edge flux iina one-switch mweb-pro qq wechat licecap tencent-lemon maczip hiddenbar obsidian itsycal hazeover eudic 
     ```
     
     备注：
-    - 使用brew 下载的 firefox 是国外版本，其账号系统和国内的火狐是不通的。
+    - 使用brew 下载的 firefox 是国外版本，其账号系统和国内的火狐是不通的
     - 迅雷（thunder），不再使用
     - [Usage](https://usage.pro/)（usage） 不再使用，改用腾讯出品的柠檬清理（tencent-lemon）
-    - one-switch、mweb-pro 均需要付费，请谨慎选择
+    - One Swithc（one-switch）、MWeb Pro（mweb-pro） 均需要付费，请谨慎选择
+    - virtualbox 不再使用，原因：暂时没有建立虚拟机的需求，已经购买了云主机
+    - 网易云音乐（neteasemusic）Homebrew 下载的经常有小问题，排查未果后，现通过[官方网站下载](https://music.163.com/#/download)
+
 
 8. 编程效率工具
 
