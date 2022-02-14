@@ -56,7 +56,7 @@
 7. 日常使用工具
 
     ```
-    brew install --cask appcleaner google-chrome microsoft-edge flux iina one-switch mweb-pro qq wechat licecap tencent-lemon maczip hiddenbar obsidian itsycal hazeover eudic 
+    brew install --cask appcleaner google-chrome microsoft-edge flux iina one-switch mweb-pro qq wechat licecap tencent-lemon maczip hiddenbar obsidian itsycal hazeover eudic calibre
     ```
     
     备注：
@@ -86,7 +86,7 @@
 10. 命令行工具
 
     ```
-    brew install wget curl mycil httpie lftp lrzsz jq xz coreutils autojump shellcheck htop axel cloc thefuck wtf fzf exa bat tmux gh youtube-dl
+    brew install wget curl mycil httpie lftp lrzsz jq xz coreutils autojump shellcheck htop axel cloc thefuck wtf fzf exa bat tmux gh youtube-dl imagemagick
     ```
     
     备注：已买的M1 Mac Mini 自带了git，这里不再安装
