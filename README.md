@@ -29,7 +29,15 @@
     xcode-select --install
     ```
 
-3. Install Homebrew
+3. Install Rosetta（罗塞塔）
+
+    ![install-rosetta](http://blog.iotop.work/image/install-rosetta.png)
+
+    备注：
+    - 首次打开为基于 Intel 的 Mac 构建的 App 时，系统会要求您安装 Rosetta（罗塞塔）。
+    - [如果您需要在 Mac 上安装 Rosetta - Apple 支持 (中国)](https://support.apple.com/zh-cn/HT211861)
+
+4. Install Homebrew
 
     ```
     /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
@@ -37,16 +45,10 @@
 
     官方地址：[Homebrew](https://brew.sh/index_zh-cn)
 
-4. 更改Homebrew的配置
+5. 更改Homebrew的配置
 
+    [Homebrew 镜像使用帮助](https://mirrors.tuna.tsinghua.edu.cn/help/homebrew/)
 
-
-5. JDK（存疑，待修订）
-
-    ```
-    brew tap caskroom/versions
-    brew install --cask java8
-    ```
 6. Python
 
     ```
@@ -86,7 +88,7 @@
 10. 命令行工具
 
     ```
-    brew install wget curl mycil httpie lftp lrzsz jq xz coreutils autojump shellcheck htop axel cloc thefuck wtf fzf exa bat tmux gh youtube-dl imagemagick
+    brew install wget curl mycil httpie lftp lrzsz jq xz coreutils autojump shellcheck htop axel cloc thefuck wtf fzf exa bat tmux gh youtube-dl imagemagick restic
     ```
     
     备注：已买的M1 Mac Mini 自带了git，这里不再安装
@@ -119,6 +121,12 @@
     brew install zsh zsh-completions
     ```
 
+15. JDK（存疑，待修订）
+
+    ```
+    brew tap caskroom/versions
+    brew install --cask java8
+    ```
 
 ### 已不再使用Atom 和 Sublime Text，这里仅仅给出安装方式，便于读者参考，如有问题请自行搜索
     
