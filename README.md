@@ -60,7 +60,7 @@ How：
 7. 日常使用工具
 
     ```
-    brew cask install  google-chrome firefox（国外版）flux iina neteasemusic one-switch mweb thunder qq wechat virtualbox licecap usage 
+    brew cask install  google-chrome firefox（国外版）flux iina neteasemusic one-switch mweb qq wechat virtualbox licecap usage mailmaster
     ```
 
 8. 编程效率工具
