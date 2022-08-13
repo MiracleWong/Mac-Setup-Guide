@@ -144,5 +144,3 @@
 
 [1]: https://www.pokooo.com/6808.html
 [2]: https://github.com/sindresorhus/quick-look-plugins
-
-
