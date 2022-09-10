@@ -31,7 +31,7 @@
 
 3. Install Rosetta（罗塞塔）
 
-    ![install-rosetta](http://blog.iotop.work/image/install-rosetta.png)
+    ![install-rosetta](images/install-rosetta.png)
 
     备注：
     - 首次打开为基于 Intel 的 Mac 构建的 App 时，系统会要求您安装 Rosetta（罗塞塔）。
@@ -42,12 +42,21 @@
     ```
     /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
     ```
+    
+    如果网络条件不允许，请进行K（科）X（学）S（上）W（网）的方法，或者
+    
+    ```
+    git clone --depth=1 https://mirrors.tuna.tsinghua.edu.cn/git/homebrew/install.git brew-install
+    /bin/bash brew-install/install.sh
+    rm -rf brew-install
+    ```
 
     官方地址：[Homebrew](https://brew.sh/index_zh-cn)
 
 5. 更改Homebrew的配置
 
     [Homebrew 镜像使用帮助](https://mirrors.tuna.tsinghua.edu.cn/help/homebrew/)
+    记得区分自己的机器是M1芯片（arm64）的、还是Intel芯片的（x86_64）的。
 
 6. Python
 
@@ -64,7 +73,7 @@
     备注：
     - 使用brew 下载的 firefox 是国外版本，其账号系统和国内的火狐是不通的
     - 迅雷（thunder），不再使用
-    - [Usage](https://usage.pro/)（usage） 不再使用，改用腾讯出品的柠檬清理（tencent-lemon）
+    - [Usage](https://usage.pro/)（usage） 不再使用，改用腾讯开源的柠檬清理（tencent-lemon）
     - One Swithc（one-switch）、MWeb Pro（mweb-pro） 均需要付费，请谨慎选择
     - virtualbox 不再使用，原因：暂时没有建立虚拟机的需求，已经购买了云主机
     - 网易云音乐（neteasemusic）Homebrew 下载的经常有小问题，排查未果后，现通过[官方网站下载](https://music.163.com/#/download)
@@ -73,10 +82,10 @@
 8. 编程效率工具
 
     ```
-    brew install --cask iterm2 sourcetree alfred postman picgo upic switchhosts dash
+    brew install --cask iterm2 sourcetree alfred postman picgo upic switchhosts dash cheatsheet
     ```
     
-    备注：cheatsheet 暂时不支持M1 系列芯片，等待支持后再加入
+    备注：Alfred 5（alfred）的PowerPack 需要付费。
     
 
 9. 扩展预览程序<sup>[2]</sup>
@@ -91,15 +100,13 @@
     brew install wget curl mycil httpie lftp lrzsz jq xz coreutils autojump shellcheck htop axel cloc thefuck wtf fzf exa bat tmux gh youtube-dl imagemagick restic
     ```
     
-    备注：已买的M1 Mac Mini 自带了git，这里不再安装
+    备注：已买的M1 Mac Mini 自带了git（前面安装过homebrew），这里不再安装
 
-11. 编辑器
-
-    - Visual Studio Code
+11. 编辑器：Visual Studio Code
     
-        ```
-        brew install --cask visual-studio-code
-        ```
+    ```
+    brew install --cask visual-studio-code
+    ```
 
 12. Node
 
@@ -110,36 +117,23 @@
 13. NVM
 
     ```
-    curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.34.0/install.sh | bash
+    curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.1/install.sh | bash
     ```
-    
+
+    官方地址：[nvm](https://github.com/nvm-sh/nvm)，可以查看具体的`nvm/install.sh`的版本。
     备注：12 和 13 选择一种方式即可。
 
-14. ZSH
+14. ZSH 和 oh-my-zsh
 
     ```
-    brew install zsh zsh-completions
     ```
+
+    备注：macOS上默认自带zsh，这里不再安装 
 
 15. JDK（存疑，待修订）
 
     ```
-    brew tap caskroom/versions
-    brew install --cask java8
     ```
-
-### 已不再使用Atom 和 Sublime Text，这里仅仅给出安装方式，便于读者参考，如有问题请自行搜索
-    
-    - Atom
-    
-        ```
-        brew install --cask atom
-        ```
-    - Sublime Text 3
-
-        ```
-        brew install --cask sublime-text
-        ```
 
 
 [1]: https://www.pokooo.com/6808.html
