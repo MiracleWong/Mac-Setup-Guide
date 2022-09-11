@@ -124,11 +124,29 @@
     备注：12 和 13 选择一种方式即可。
 
 14. ZSH 和 oh-my-zsh
+    
+    备注：macOS上默认自带zsh，这里不再安装    
+    ```
+    which zsh
+    zsh --version
+    ```
+
+    安装oh-my-zsh
+    ```
+    sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+    ```
+    
+    如果网络条件不允许，请进行K（科）X（学）S（上）W（网）的方法，或者
 
     ```
+    sh -c "$(curl -fsSL https://gitee.com/mirrors/oh-my-zsh/raw/master/tools/install.sh)"
     ```
 
-    备注：macOS上默认自带zsh，这里不再安装 
+    配置`~/.zshrc`
+    ```
+    cp ~/.oh-my-zsh/templates/zshrc.zsh-template ~/.zshrc
+    ```
+
 
 15. JDK（存疑，待修订）
 
