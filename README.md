@@ -121,11 +121,13 @@
     ```
 
     官方地址：[nvm](https://github.com/nvm-sh/nvm)，可以查看具体的`nvm/install.sh`的版本。
+
     备注：12 和 13 选择一种方式即可。
 
 14. ZSH 和 oh-my-zsh
     
-    备注：macOS上默认自带zsh，这里不再安装    
+    备注：macOS上默认自带zsh，这里不再安装。
+
     ```
     which zsh
     zsh --version
@@ -151,6 +153,7 @@
 15. JDK（存疑，待修订）
 
     ```
+    brew install --cask openjdk@11
     ```
 
 
