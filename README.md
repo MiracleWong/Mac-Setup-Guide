@@ -91,7 +91,7 @@
 9. 扩展预览程序<sup>[2]</sup>
 
     ```
-    brew install --cask qlcolorcode qlstephen qlmarkdown quicklook-json qlimagesize suspicious-package quicklookase qlvideo webpquicklook
+    brew install --cask qlcolorcode qlimagesize qlmarkdown qlmobi qlstephen qlvideo quicklook-json quicklook-csv  webpquicklook ipynb-quicklook
     ```
 
 10. 命令行工具
