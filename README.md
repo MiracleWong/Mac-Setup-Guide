@@ -19,6 +19,16 @@
 
 ## How
 
+<br>重要的事情说说三遍：</br>
+
+安装过程和配置文件(dotfiles)已经自动化。
+
+安装过程和配置文件(dotfiles)已经自动化。
+
+安装过程和配置文件(dotfiles)已经自动化。
+
+地址：[MiracleWong/dotfiles: Manage my dotfiles by rcm.](https://github.com/MiracleWong/dotfiles)
+
 1. Install Xcode
   
     备注：在Mac App Store 上安装
